@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -11,17 +11,9 @@
  * GNU General Public License for more details.
  */
 
-/dts-v1/;
-
-#include "msm8937.dtsi"
-#include "msm8937-mtp.dtsi"
-#include "msm8937-pmi8940.dtsi"
-
-/ {
-	model = "Qualcomm Technologies, Inc. MSM8937-PMI8940 MTP";
-	compatible = "qcom,msm8937-mtp", "qcom,msm8937", "qcom,mtp";
-	qcom,board-id= <8 0>;
-	qcom,pmic-id = <0x10019 0x020040 0x0 0x0>;
+&mdss_mdp {
+	#include "display/dsi-panel-ili9881c-cpt-video.dtsi"
+	#include "display/dsi_panel_st7703_jdf_lianovation_video.dtsi"	
+	#include "display/dsi-panel-ili9881c-hsd-video.dtsi"
+	#include "display/dsi-panel-ili9881p-panda-ykl.dtsi"
 };
-
-#include "asus/X00I.dtsi"

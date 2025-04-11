@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -11,17 +11,18 @@
  * GNU General Public License for more details.
  */
 
-/dts-v1/;
+&spmi_bus {
+	qcom,pm8937@0 {
+		qcom,power-on@800 {
+			qcom,s3-debounce = <16>;
+			qcom,s3-src = "kpdpwr";
 
-#include "msm8937.dtsi"
-#include "msm8937-mtp.dtsi"
-#include "msm8937-pmi8940.dtsi"
-
-/ {
-	model = "Qualcomm Technologies, Inc. MSM8937-PMI8940 MTP";
-	compatible = "qcom,msm8937-mtp", "qcom,msm8937", "qcom,mtp";
-	qcom,board-id= <8 0>;
-	qcom,pmic-id = <0x10019 0x020040 0x0 0x0>;
+			qcom,pon_1 {
+				qcom,support-reset = <1>;
+				qcom,s1-timer = <10256>;
+				qcom,s2-timer = <0>;
+				qcom,s2-type = <4>;
+			};
+		};
+	};
 };
-
-#include "asus/X00I.dtsi"

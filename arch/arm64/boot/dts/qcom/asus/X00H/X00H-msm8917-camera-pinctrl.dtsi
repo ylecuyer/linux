@@ -1,0 +1,149 @@
+/*
+ * Copyright (c) 2017, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+&tlmm {
+	cam_sensor_rear_avdd_default: cam_sensor_rear_avdd_default {
+		mux {
+			pins = "gpio89";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio89";
+			bias-disable;
+			drive-strength = <2>;
+			output-low;
+		};
+	};
+
+	cam_sensor_rear_avdd_sleep: cam_sensor_rear_avdd_sleep {
+		mux {
+			pins = "gpio89";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio89";
+			bias-disable;
+			drive-strength = <2>;
+		};
+	};
+
+	cam_sensor_rear_af_default: cam_sensor_rear_af_default {
+		mux {
+			pins = "gpio34";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio34";
+			bias-disable;
+			drive-strength = <2>;
+		};
+	};
+
+	cam_sensor_rear_af_sleep: cam_sensor_rear_af_sleep {
+		mux {
+			pins = "gpio34";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio34";
+			bias-disable;
+			drive-strength = <2>;
+		};
+	};
+
+	cam_sensor_front_switch_default: cam_sensor_front_switch_default {
+		mux {
+			pins = "gpio87";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio87";
+			bias-disable;
+			drive-strength = <2>;
+			output-low;
+		};
+	};
+
+	cam_sensor_front_switch_sleep: cam_sensor_front_switch_sleep {
+		mux {
+			pins = "gpio87";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio87";
+			bias-disable;
+			drive-strength = <2>;
+		};
+	};
+
+	cam_sensor_front_switch_oe_default: cam_sensor_front_switch_oe_default {
+		mux {
+			pins = "gpio92";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio92";
+			bias-disable;
+			drive-strength = <2>;
+			output-low;
+		};
+	};
+
+	cam_sensor_front_switch_oe_sleep: cam_sensor_front_switch_oe_sleep {
+		mux {
+			pins = "gpio92";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio92";
+			bias-disable;
+			drive-strength = <2>;
+			output-low;
+		};
+	};
+
+	cam_sensor_vana1_default:cam_sensor_vana1_default {
+		mux {
+			pins = "gpio90";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio90";
+			bias-disable;
+			drive-strength = <2>;
+		};
+	};
+
+	cam_sensor_vana1_sleep:cam_sensor_vana1_sleep {
+		mux {
+			pins = "gpio90";
+			function = "gpio";
+		};
+
+		config {
+			pins = "gpio90";
+			bias-disable;
+			drive-strength = <2>;
+			output-low;
+		};
+	};
+};

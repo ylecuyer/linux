@@ -11,17 +11,13 @@
  * GNU General Public License for more details.
  */
 
-/dts-v1/;
-
-#include "msm8937.dtsi"
-#include "msm8937-mtp.dtsi"
-#include "msm8937-pmi8940.dtsi"
-
-/ {
-	model = "Qualcomm Technologies, Inc. MSM8937-PMI8940 MTP";
-	compatible = "qcom,msm8937-mtp", "qcom,msm8937", "qcom,mtp";
-	qcom,board-id= <8 0>;
-	qcom,pmic-id = <0x10019 0x020040 0x0 0x0>;
-};
-
-#include "asus/X00I.dtsi"
+#include "X00H-msm8937-mdss-panels.dtsi"
+#include "X00H-msm-pm8937.dtsi"
+#include "X00H-msm-pmi8940.dtsi"
+#include "X00H-msm8917.dtsi"
+#include "X00H-msm8917-audio.dtsi"
+#include "X00H-msm8917-camera-pinctrl.dtsi"
+#include "X00H-msm8917-camera-sensor-mtp.dtsi"
+#include "X00H-msm8917-mtp.dtsi"
+#include "X00H-msm8917-pinctrl.dtsi"
+#include "X00H-msm8917-pmi8940-mtp.dtsi"
