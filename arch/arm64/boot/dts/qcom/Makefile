@@ -1,313 +1,692 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-samsung-gtelwifiue.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-samsung-matissevewifi.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc.dtb
-
-apq8016-sbc-usb-host-dtbs	:= apq8016-sbc.dtb apq8016-sbc-usb-host.dtbo
-
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc-usb-host.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc-d3-camera-mezzanine.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-schneider-hmibsc.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8039-t2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8094-sony-xperia-kitakami-karin_windy.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-db820c.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-ifc6640.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5018-rdp432-c2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5018-tplink-archer-ax55-v1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5332-rdp441.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5332-rdp442.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5332-rdp468.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq5332-rdp474.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq6018-cp01-c1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq8074-hk01.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq8074-hk10-c1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq8074-hk10-c2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq9574-rdp418.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq9574-rdp433.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq9574-rdp449.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq9574-rdp453.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= ipq9574-rdp454.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8216-samsung-fortuna3g.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-acer-a1-724.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-alcatel-alto5-vdf.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-alcatel-idol347.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-ark-peach.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-asus-z00l.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-asus-z010d.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-gplus-fl8005a.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-huawei-g7.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-huawei-y635.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-lg-c50.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-lg-m216.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-longcheer-l8150.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-longcheer-l8910.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-motorola-harpia.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-motorola-osprey.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-motorola-surnia.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-a3u-eur.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-a5-zt.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-a5u-eur.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-e5.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-e7.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-fortunaltezt.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-gprimeltecan.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-grandmax.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-grandprimelte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-gt510.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-gt58.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-heatqlte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j3ltetw.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j5.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j5x.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-rossa.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-on7.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-serranove.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-thwc-uf896.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-thwc-ufi001c.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-vivo-y21l.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-wingtech-wt86518.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-wingtech-wt86528.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-wingtech-wt88047.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-yiming-uz801v3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8917-huawei-agassi.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8917-motorola-nora.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8917-xiaomi-riva.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8917-xiaomi-rolex.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8917-xiaomi-ugglite.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8929-wingtech-wt82918hd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8937-motorola-hannah.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8937-asus-x00i.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8937-motorola-montana.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8937-xiaomi-land.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8937-xiaomi-prada.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-alcatel-idol3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-huawei-kiwi.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-longcheer-l9100.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-samsung-a7.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-sony-xperia-kanuti-tulip.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-wingtech-wt82918.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8939-wingtech-wt82918hd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8940-xiaomi-santoni.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8940-xiaomi-ugg.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8953-motorola-potter.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8953-xiaomi-daisy.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8953-xiaomi-mido.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8953-xiaomi-tissot.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8953-xiaomi-vince.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8956-sony-xperia-loire-kugo.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8956-sony-xperia-loire-suzu.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8992-lg-bullhead-rev-10.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8992-lg-bullhead-rev-101.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8992-lg-h815.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8992-msft-lumia-octagon-talkman.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8992-xiaomi-libra.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-huawei-angler-rev-101.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-msft-lumia-octagon-cityman.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-sony-xperia-kitakami-ivy.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-sony-xperia-kitakami-karin.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-sony-xperia-kitakami-satsuki.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-sony-xperia-kitakami-sumire.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8994-sony-xperia-kitakami-suzuran.dtb
+dtb-$(CONFIG_ARCH_QCOM)	+= apq8016-sbc.dtb msm8916-mtp.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-oneplus3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-oneplus3t.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-sony-xperia-tone-dora.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-sony-xperia-tone-kagura.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-sony-xperia-tone-keyaki.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996-xiaomi-gemini.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996pro-xiaomi-natrium.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8996pro-xiaomi-scorpio.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-asus-novago-tp370ql.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-fxtec-pro1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-hp-envy-x2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-lenovo-miix-630.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-oneplus-cheeseburger.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-oneplus-dumpling.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-sony-xperia-yoshino-lilac.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-sony-xperia-yoshino-maple.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-sony-xperia-yoshino-poplar.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= msm8998-xiaomi-sagit.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcm6490-fairphone-fp5.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcm6490-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcm6490-shift-otter.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs404-evb-1000.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs404-evb-4000.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs6490-rb3gen2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs8550-aim300-aiot.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs9100-ride.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qcs9100-ride-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qdu1000-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qm215-nokia-weeknd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qrb2210-rb1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qrb4210-rb2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qrb5165-rb5.dtb
+dtb-$(CONFIG_ARCH_QCOM)	+= apq8096-db820c.dtb
 
-qrb5165-rb5-vision-mezzanine-dtbs	:= qrb5165-rb5.dtb qrb5165-rb5-vision-mezzanine.dtbo
+ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
+	dtbo-$(CONFIG_ARCH_SDM845) += \
+		sdm845-cdp-overlay.dtbo \
+		sdm845-mtp-overlay.dtbo \
+		sdm845-qrd-overlay.dtbo \
+		sdm845-4k-panel-mtp-overlay.dtbo \
+		sdm845-4k-panel-cdp-overlay.dtbo \
+		sdm845-4k-panel-qrd-overlay.dtbo \
+		sdm845-v2-qvr-evt-overlay.dtbo \
+		sdm845-v2-qvr-dvt-overlay.dtbo \
+		sdm845-v2-cdp-overlay.dtbo \
+		sdm845-v2-mtp-overlay.dtbo \
+		sdm845-v2-qrd-overlay.dtbo \
+		sdm845-v2-4k-panel-mtp-overlay.dtbo \
+		sdm845-v2-4k-panel-cdp-overlay.dtbo \
+		sdm845-v2-4k-panel-qrd-overlay.dtbo \
+		sdm845-v2.1-cdp-overlay.dtbo \
+		sdm845-v2.1-mtp-overlay.dtbo \
+		sdm845-v2.1-qrd-overlay.dtbo \
+		sdm845-v2.1-4k-panel-mtp-overlay.dtbo \
+		sdm845-v2.1-4k-panel-cdp-overlay.dtbo \
+		sdm845-v2.1-4k-panel-qrd-overlay.dtbo \
+		sda845-cdp-overlay.dtbo \
+		sda845-mtp-overlay.dtbo \
+		sda845-qrd-overlay.dtbo \
+		sda845-4k-panel-mtp-overlay.dtbo \
+		sda845-4k-panel-cdp-overlay.dtbo \
+		sda845-4k-panel-qrd-overlay.dtbo \
+		sda845-v2-cdp-overlay.dtbo \
+		sda845-v2-mtp-overlay.dtbo \
+		sda845-v2-qrd-overlay.dtbo \
+		sda845-v2-hdk-overlay.dtbo \
+		sda845-v2-svr-overlay.dtbo \
+		sda845-v2-4k-panel-mtp-overlay.dtbo \
+		sda845-v2-4k-panel-cdp-overlay.dtbo \
+		sda845-v2-4k-panel-qrd-overlay.dtbo \
+		sda845-v2.1-cdp-overlay.dtbo \
+		sda845-v2.1-mtp-overlay.dtbo \
+		sda845-v2.1-qrd-overlay.dtbo \
+		sda845-v2.1-svr-overlay.dtbo \
+		sda845-v2.1-4k-panel-cdp-overlay.dtbo \
+		sda845-v2.1-4k-panel-mtp-overlay.dtbo \
+		sda845-v2.1-4k-panel-qrd-overlay.dtbo \
+		sda845-v2.1-cdp-sdxpoorwills-overlay.dtbo \
+		sda845-v2.1-mtp-sdxpoorwills-overlay.dtbo \
+		sda845-v2-mtp-sdxpoorwills-overlay.dtbo
 
-dtb-$(CONFIG_ARCH_QCOM)	+= qrb5165-rb5-vision-mezzanine.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= qru1000-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sa8155p-adp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sa8295p-adp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sa8540p-ride.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sa8775p-ride.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sa8775p-ride-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-acer-aspire1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-coachz-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-coachz-r1-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-coachz-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-coachz-r3-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-homestar-r2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-homestar-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-homestar-r4.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-kingoftown.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r1-kb.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r1-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r3-kb.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r3-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r9.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r9-kb.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r9-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r10.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r10-kb.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-r10-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-r4.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-r9.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-r10.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-nots-r4.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-nots-r5.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-nots-r9.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-lazor-limozeen-nots-r10.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel-lte-parade.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel-lte-ti.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel-parade.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel-ti.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel360-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pazquel360-wifi.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r1-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r2-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-pompom-r3-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-quackingstick-r0.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-quackingstick-r0-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-wormdingler-rev1-boe.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-wormdingler-rev1-inx.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-wormdingler-rev1-inx-rt5682s.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-wormdingler-rev1-boe-rt5682s.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7180-trogdor-r1-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-crd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-crd-pro.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-evoker.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-evoker-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-herobrine-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-villager-r0.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-villager-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-villager-r1-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-zombie.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-zombie-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-zombie-nvme.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-herobrine-zombie-nvme-lte.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-idp2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc7280-crd-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc8180x-lenovo-flex-5g.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc8180x-primus.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc8280xp-crd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc8280xp-lenovo-thinkpad-x13s.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sc8280xp-microsoft-arcata.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sda660-inforce-ifc6560.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm450-lenovo-tbx605f.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm450-motorola-ali.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm630-sony-xperia-ganges-kirin.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm630-sony-xperia-nile-discovery.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm630-sony-xperia-nile-pioneer.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm630-sony-xperia-nile-voyager.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm632-fairphone-fp3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm632-motorola-ocean.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm636-sony-xperia-ganges-mermaid.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm660-xiaomi-lavender.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm670-google-sargo.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-cheza-r1.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-cheza-r2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-cheza-r3.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-db845c.dtb
+sdm845-cdp-overlay.dtbo-base := sdm845.dtb
+sdm845-mtp-overlay.dtbo-base := sdm845.dtb
+sdm845-qrd-overlay.dtbo-base := sdm845.dtb
+sdm845-4k-panel-mtp-overlay.dtbo-base := sdm845.dtb
+sdm845-4k-panel-cdp-overlay.dtbo-base := sdm845.dtb
+sdm845-4k-panel-qrd-overlay.dtbo-base := sdm845.dtb
+sdm845-v2-qvr-evt-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-qvr-dvt-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-cdp-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-mtp-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-qrd-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-4k-panel-mtp-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-4k-panel-cdp-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2-4k-panel-qrd-overlay.dtbo-base := sdm845-v2.dtb
+sdm845-v2.1-cdp-overlay.dtbo-base := sdm845-v2.1.dtb
+sdm845-v2.1-mtp-overlay.dtbo-base := sdm845-v2.1.dtb
+sdm845-v2.1-qrd-overlay.dtbo-base := sdm845-v2.1.dtb
+sdm845-v2.1-4k-panel-mtp-overlay.dtbo-base := sdm845-v2.1.dtb
+sdm845-v2.1-4k-panel-cdp-overlay.dtbo-base := sdm845-v2.1.dtb
+sdm845-v2.1-4k-panel-qrd-overlay.dtbo-base := sdm845-v2.1.dtb
+sda845-cdp-overlay.dtbo-base := sda845.dtb
+sda845-mtp-overlay.dtbo-base := sda845.dtb
+sda845-qrd-overlay.dtbo-base := sda845.dtb
+sda845-4k-panel-mtp-overlay.dtbo-base := sda845.dtb
+sda845-4k-panel-cdp-overlay.dtbo-base := sda845.dtb
+sda845-4k-panel-qrd-overlay.dtbo-base := sda845.dtb
+sda845-v2-cdp-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-mtp-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-qrd-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-hdk-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-svr-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-4k-panel-mtp-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-4k-panel-cdp-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2-4k-panel-qrd-overlay.dtbo-base := sda845-v2.dtb
+sda845-v2.1-cdp-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-mtp-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-qrd-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-svr-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-4k-panel-cdp-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-4k-panel-mtp-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-4k-panel-qrd-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-cdp-sdxpoorwills-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2.1-mtp-sdxpoorwills-overlay.dtbo-base := sda845-v2.1.dtb
+sda845-v2-mtp-sdxpoorwills-overlay.dtbo-base := sda845-v2.dtb
+else
+dtb-$(CONFIG_ARCH_SDM845) += sdm845-sim.dtb \
+	sdm845-rumi.dtb \
+	sdm845-mtp.dtb \
+	sdm845-cdp.dtb \
+	sdm845-v2-rumi.dtb \
+	sdm845-v2-mtp.dtb \
+	sdm845-v2-robotics.dtb \
+	sdm845-v2-cdp.dtb \
+	sdm845-qrd.dtb \
+	sdm845-v2-qrd.dtb \
+	sdm845-v2-qvr-evt.dtb \
+	sdm845-v2-qvr-dvt.dtb \
+	sdm845-4k-panel-mtp.dtb \
+	sdm845-4k-panel-cdp.dtb \
+	sdm845-4k-panel-qrd.dtb \
+	sdm845-interposer-sdm670-mtp.dtb \
+	sdm845-interposer-sdm670-cdp.dtb \
+	sdm845-v2.1-rb3.dtb \
+	sdm845-v2.1-mtp.dtb
+endif
 
-sdm845-db845c-navigation-mezzanine-dtbs	:= sdm845-db845c.dtb sdm845-db845c-navigation-mezzanine.dtbo
+ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
+	dtbo-$(CONFIG_ARCH_SDM670) += \
+		sdm670-cdp-overlay.dtbo \
+		sdm670-mtp-overlay.dtbo \
+		sdm670-rumi-overlay.dtbo \
+		sdm670-qrd-overlay.dtbo \
+		sdm670-qrd-sku2-overlay.dtbo \
+		sdm670-pm660a-cdp-overlay.dtbo \
+		sdm670-pm660a-mtp-overlay.dtbo \
+		sdm670-external-codec-cdp-overlay.dtbo \
+		sdm670-external-codec-mtp-overlay.dtbo \
+		sdm670-external-codec-pm660a-cdp-overlay.dtbo \
+		sdm670-external-codec-pm660a-mtp-overlay.dtbo \
+		sdm670-usbc-cdp-overlay.dtbo \
+		sdm670-usbc-mtp-overlay.dtbo \
+		sdm670-usbc-pm660a-cdp-overlay.dtbo \
+		sdm670-usbc-pm660a-mtp-overlay.dtbo \
+		sdm670-usbc-external-codec-cdp-overlay.dtbo \
+		sdm670-usbc-external-codec-mtp-overlay.dtbo \
+		sdm670-usbc-external-codec-pm660a-cdp-overlay.dtbo \
+		sdm670-usbc-external-codec-pm660a-mtp-overlay.dtbo \
+		sda670-cdp-overlay.dtbo \
+		sda670-mtp-overlay.dtbo \
+		sda670-hdk-overlay.dtbo \
+		sda670-pm660a-cdp-overlay.dtbo \
+		sda670-pm660a-mtp-overlay.dtbo \
+		sdm670-tasha-codec-cdp-overlay.dtbo \
+		sdm670-pm660a-tasha-codec-cdp-overlay.dtbo \
+		sdm670-aqt1000-cdp-overlay.dtbo \
+		sdm670-pm660a-aqt1000-cdp-overlay.dtbo \
+		sxr1120-lc-mtp-overlay.dtbo \
+		sxr1120-lc-external-codec-mtp-overlay.dtbo \
+		sxr1120-lc-cdp-overlay.dtbo \
+		sxr1120-lc-external-codec-cdp-overlay.dtbo \
+		qcs605-cdp-overlay.dtbo \
+		qcs605-mtp-overlay.dtbo \
+		qcs605-360camera-overlay.dtbo \
+		qcs605-external-codec-mtp-overlay.dtbo \
+		qcs605-lc-ipcamera-overlay.dtbo \
+		qcs605-lc-mtp-overlay.dtbo \
+		qcs605-lc-cdp-overlay.dtbo \
+		sdm710-cdp-overlay.dtbo \
+		sdm710-mtp-overlay.dtbo \
+		sdm710-qrd-overlay.dtbo \
+		sdm710-qrd-sku2-overlay.dtbo \
+		sdm710-pm660a-cdp-overlay.dtbo \
+		sdm710-pm660a-mtp-overlay.dtbo \
+		sdm710-external-codec-cdp-overlay.dtbo \
+		sdm710-external-codec-mtp-overlay.dtbo \
+		sdm710-external-codec-pm660a-cdp-overlay.dtbo \
+		sdm710-external-codec-pm660a-mtp-overlay.dtbo \
+		sdm710-usbc-cdp-overlay.dtbo \
+		sdm710-usbc-mtp-overlay.dtbo \
+		sdm710-usbc-pm660a-cdp-overlay.dtbo \
+		sdm710-usbc-pm660a-mtp-overlay.dtbo \
+		sdm710-usbc-external-codec-cdp-overlay.dtbo \
+		sdm710-usbc-external-codec-mtp-overlay.dtbo \
+		sdm710-usbc-external-codec-pm660a-cdp-overlay.dtbo \
+		sdm710-usbc-external-codec-pm660a-mtp-overlay.dtbo \
+		sdm710-tasha-codec-cdp-overlay.dtbo \
+		sdm710-pm660a-tasha-codec-cdp-overlay.dtbo \
+		sdm710-aqt1000-cdp-overlay.dtbo \
+		sdm710-pm660a-aqt1000-cdp-overlay.dtbo \
+		sxr1130-cdp-overlay.dtbo \
+		sxr1130-external-codec-cdp-overlay.dtbo \
+		sxr1130-mtp-overlay.dtbo \
+		sxr1130-external-codec-mtp-overlay.dtbo \
+		sxr1130-external-codec-pm660a-mtp-overlay.dtbo \
+		sxr1130-pm660a-mtp-overlay.dtbo \
+		sxr1130-usbc-external-codec-cdp-overlay.dtbo \
+		sxr1130-usbc-external-codec-mtp-overlay.dtbo \
+		sxr1130-usbc-external-codec-pm660a-mtp-overlay.dtbo \
+		sxr1130-usbc-mtp-overlay.dtbo \
+		sxr1130-usbc-pm660a-mtp-overlay.dtbo \
+		sxr1130-qrd-overlay.dtbo \
+		sxr1130-svr-overlay.dtbo
 
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-db845c-navigation-mezzanine.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-lg-judyln.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-lg-judyp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-oneplus-enchilada.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-oneplus-fajita.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-samsung-starqltechn.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-sony-xperia-tama-akari.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-sony-xperia-tama-akatsuki.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-sony-xperia-tama-apollo.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-xiaomi-beryllium-ebbg.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-xiaomi-beryllium-tianma.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-xiaomi-polaris.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm845-shift-axolotl.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm850-lenovo-yoga-c630.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdm850-samsung-w737.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sdx75-idp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm4250-oneplus-billie2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm4450-qrd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6115-fxtec-pro1x.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6115p-lenovo-j606f.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6125-sony-xperia-seine-pdx201.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6125-xiaomi-laurel-sprout.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6350-sony-xperia-lena-pdx213.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm6375-sony-xperia-murray-pdx225.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm7125-xiaomi-curtana.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm7125-xiaomi-joyeuse.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm7225-fairphone-fp4.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm7325-nothing-spacewar.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8150-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8150-microsoft-surface-duo.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8150-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8150-sony-xperia-kumano-bahamut.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8150-sony-xperia-kumano-griffin.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-sony-xperia-edo-pdx203.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-sony-xperia-edo-pdx206.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-xiaomi-elish-boe.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-xiaomi-elish-csot.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8250-xiaomi-pipa.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8350-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8350-microsoft-surface-duo2.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8350-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8350-sony-xperia-sagami-pdx214.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8350-sony-xperia-sagami-pdx215.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8450-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8450-qrd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8450-sony-xperia-nagara-pdx223.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8450-sony-xperia-nagara-pdx224.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8550-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8550-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8550-qrd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8550-samsung-q5q.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8550-sony-xperia-yodo-pdx234.dtb
+sdm670-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-rumi-overlay.dtbo-base := sdm670.dtb
+sdm670-qrd-overlay.dtbo-base := sdm670.dtb
+sdm670-qrd-sku2-overlay.dtbo-base := sdm670.dtb
+sdm670-pm660a-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-pm660a-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-external-codec-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-external-codec-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-external-codec-pm660a-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-external-codec-pm660a-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-pm660a-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-pm660a-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-external-codec-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-external-codec-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-external-codec-pm660a-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-usbc-external-codec-pm660a-mtp-overlay.dtbo-base := sdm670.dtb
+sdm670-tasha-codec-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-pm660a-tasha-codec-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-aqt1000-cdp-overlay.dtbo-base := sdm670.dtb
+sdm670-pm660a-aqt1000-cdp-overlay.dtbo-base := sdm670.dtb
+sda670-cdp-overlay.dtbo-base := sda670.dtb
+sda670-mtp-overlay.dtbo-base := sda670.dtb
+sda670-hdk-overlay.dtbo-base := sda670.dtb
+sda670-pm660a-cdp-overlay.dtbo-base := sda670.dtb
+sda670-pm660a-mtp-overlay.dtbo-base := sda670.dtb
+sxr1120-lc-mtp-overlay.dtbo-base := sxr1120-lc.dtb
+sxr1120-lc-external-codec-mtp-overlay.dtbo-base := sxr1120-lc.dtb
+sxr1120-lc-cdp-overlay.dtbo-base := sxr1120-lc.dtb
+sxr1120-lc-external-codec-cdp-overlay.dtbo-base := sxr1120-lc.dtb
+qcs605-cdp-overlay.dtbo-base := qcs605.dtb
+qcs605-mtp-overlay.dtbo-base := qcs605.dtb
+qcs605-external-codec-mtp-overlay.dtbo-base := qcs605.dtb
+qcs605-lc-mtp-overlay.dtbo-base := qcs605-lc.dtb
+qcs605-lc-ipcamera-overlay.dtbo-base := qcs605-lc-ipcamera-base.dtb
+qcs605-360camera-overlay.dtbo-base := qcs605.dtb
+qcs605-lc-cdp-overlay.dtbo-base := qcs605-lc-cdp-base.dtb
+sdm710-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-qrd-overlay.dtbo-base := sdm710.dtb
+sdm710-qrd-sku2-overlay.dtbo-base := sdm710.dtb
+sdm710-pm660a-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-pm660a-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-external-codec-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-external-codec-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-external-codec-pm660a-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-external-codec-pm660a-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-pm660a-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-pm660a-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-external-codec-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-external-codec-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-external-codec-pm660a-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-usbc-external-codec-pm660a-mtp-overlay.dtbo-base := sdm710.dtb
+sdm710-tasha-codec-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-pm660a-tasha-codec-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-aqt1000-cdp-overlay.dtbo-base := sdm710.dtb
+sdm710-pm660a-aqt1000-cdp-overlay.dtbo-base := sdm710.dtb
+sxr1130-cdp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-external-codec-cdp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-external-codec-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-external-codec-pm660a-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-pm660a-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-usbc-external-codec-cdp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-usbc-external-codec-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-usbc-external-codec-pm660a-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-usbc-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-usbc-pm660a-mtp-overlay.dtbo-base := sxr1130.dtb
+sxr1130-qrd-overlay.dtbo-base := sxr1130.dtb
+sxr1130-svr-overlay.dtbo-base := sxr1130.dtb
 
-sm8650-hdk-display-card-dtbs	:= sm8650-hdk.dtb sm8650-hdk-display-card.dtbo
+else
+dtb-$(CONFIG_ARCH_SDM670) += sdm670-rumi.dtb \
+	sdm670-mtp.dtb \
+	sdm670-cdp.dtb \
+	sdm670-qrd.dtb \
+	sdm670-qrd-sku2.dtb \
+	sdm670-pm660a-mtp.dtb \
+	sdm670-pm660a-cdp.dtb \
+	sdm670-external-codec-cdp.dtb \
+	sdm670-external-codec-mtp.dtb \
+	sdm670-external-codec-pm660a-cdp.dtb \
+	sdm670-external-codec-pm660a-mtp.dtb \
+	sdm670-usbc-cdp.dtb \
+	sdm670-usbc-external-codec-cdp.dtb \
+	sdm670-usbc-external-codec-mtp.dtb \
+	sdm670-usbc-external-codec-pm660a-cdp.dtb \
+	sdm670-usbc-external-codec-pm660a-mtp.dtb \
+	sdm670-usbc-mtp.dtb \
+	sdm670-usbc-pm660a-cdp.dtb \
+	sdm670-usbc-pm660a-mtp.dtb \
+	sda670-mtp.dtb \
+	sda670-hdk.dtb \
+	sda670-cdp.dtb \
+	sdm670-tasha-codec-cdp.dtb \
+	sdm670-pm660a-tasha-codec-cdp.dtb \
+	sda670-pm660a-mtp.dtb \
+	sda670-pm660a-cdp.dtb \
+	sxr1120-lc-mtp.dtb \
+	sxr1120-lc-external-codec-mtp.dtb \
+	sxr1120-lc-cdp.dtb \
+	sxr1120-lc-external-codec-cdp.dtb \
+	qcs605-360camera.dtb \
+	qcs605-mtp.dtb \
+	qcs605-cdp.dtb \
+	qcs605-external-codec-mtp.dtb \
+	qcs605-lc-ipcamera.dtb \
+	qcs605-lc-mtp.dtb \
+	qcs605-lc-cdp.dtb \
+	qcs605-lc-mtp-no-hdcp.dtb \
+	sdm710-mtp.dtb \
+	sdm710-cdp.dtb \
+	sdm710-qrd.dtb \
+	sdm710-qrd-sku2.dtb \
+	sdm710-pm660a-mtp.dtb \
+	sdm710-pm660a-cdp.dtb \
+	sdm710-external-codec-cdp.dtb \
+	sdm710-external-codec-mtp.dtb \
+	sdm710-external-codec-pm660a-cdp.dtb \
+	sdm710-external-codec-pm660a-mtp.dtb \
+	sdm710-usbc-cdp.dtb \
+	sdm710-usbc-external-codec-cdp.dtb \
+	sdm710-usbc-external-codec-mtp.dtb \
+	sdm710-usbc-external-codec-pm660a-cdp.dtb \
+	sdm710-usbc-external-codec-pm660a-mtp.dtb \
+	sdm710-usbc-mtp.dtb \
+	sdm710-usbc-pm660a-cdp.dtb \
+	sdm710-usbc-pm660a-mtp.dtb \
+	sdm710-tasha-codec-cdp.dtb \
+	sdm710-pm660a-tasha-codec-cdp.dtb \
+	sxr1130-cdp.dtb \
+	sxr1130-external-codec-cdp.dtb \
+	sxr1130-mtp.dtb \
+	sxr1130-external-codec-mtp.dtb \
+	sxr1130-external-codec-pm660a-mtp.dtb \
+	sxr1130-pm660a-mtp.dtb \
+	sxr1130-usbc-external-codec-cdp.dtb \
+	sxr1130-usbc-external-codec-mtp.dtb \
+	sxr1130-usbc-external-codec-pm660a-mtp.dtb \
+	sxr1130-usbc-mtp.dtb \
+	sxr1130-usbc-pm660a-mtp.dtb \
+	sxr1130-qrd.dtb \
+	sxr1130-svr.dtb
+endif
 
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8650-hdk-display-card.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8650-hdk.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8650-mtp.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= sm8650-qrd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e78100-lenovo-thinkpad-t14s.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-asus-vivobook-s15.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-crd.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-dell-xps13-9345.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-lenovo-yoga-slim7x.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-microsoft-romulus13.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-microsoft-romulus15.dtb
-dtb-$(CONFIG_ARCH_QCOM)	+= x1e80100-qcp.dtb
+ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
+dtbo-$(CONFIG_ARCH_MSM8940) += msm8940-mtp-overlay.dtbo
+dtbo-$(CONFIG_ARCH_MSM8940) += msm8940-cdp-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_MSM8917) += msm8917-mtp-overlay.dtbo \
+	msm8917-qrd-overlay.dtbo \
+	msm8917-cdp-overlay.dtbo \
+	msm8917-cdp-ext-codec-overlay.dtbo \
+	msm8917-cdp-ml-touch-overlay.dtbo \
+	msm8917-rcm-overlay.dtbo \
+	apq8017-mtp-overlay.dtbo \
+	apq8017-cdp-overlay.dtbo \
+	apq8017-cdp-wcd-rome-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_QM215) +=qm215-qrd-overlay.dtbo \
+	qcm2150-qrd-overlay.dtbo
+dtbo-$(CONFIG_ARCH_QM215) +=qm215-qrd-smb1360-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_MSM8953) += msm8953-mtp-overlay.dtbo \
+	msm8953-cdp-overlay.dtbo \
+	msm8953-rcm-overlay.dtbo \
+	msm8953-ipc-overlay.dtbo \
+	msm8953-qrd-overlay.dtbo \
+	msm8953-iot-mtp-overlay.dtbo \
+	msm8953-ext-codec-mtp-overlay.dtbo \
+	msm8953-ext-codec-rcm-overlay.dtbo \
+	msm8953-cdp-1200p-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_SDM450) += msm8953-mtp-overlay.dtbo \
+	msm8953-cdp-overlay.dtbo \
+	msm8953-rcm-overlay.dtbo \
+	msm8953-qrd-overlay.dtbo \
+	msm8953-iot-mtp-overlay.dtbo \
+	sdm450-cdp-s2-overlay.dtbo \
+	sdm450-mtp-s3-overlay.dtbo \
+	sdm450-qrd-sku4-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_SDM632) += sdm632-rumi-overlay.dtbo \
+	sdm450-cdp-s2-overlay.dtbo \
+	sdm450-mtp-s3-overlay.dtbo \
+	sdm632-ext-codec-cdp-s3-overlay.dtbo \
+	sdm632-ext-codec-mtp-s4-overlay.dtbo \
+	sdm632-rcm-overlay.dtbo \
+	sdm450-qrd-sku4-overlay.dtbo \
+	sdm632-qrd-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_SDM439) += sdm439-mtp-overlay.dtbo \
+	sdm439-cdp-overlay.dtbo \
+	sdm439-qrd-overlay.dtbo \
+	sdm439-external-codec-mtp-overlay.dtbo \
+	sdm439-rcm-overlay.dtbo
+
+dtbo-$(CONFIG_ARCH_SDM429) += sdm429-mtp-overlay.dtbo \
+	sdm429-cdp-overlay.dtbo \
+	sdm429-qrd-overlay.dtbo \
+	sdm429-spyro-qrd-evt-overlay.dtbo \
+	sdm429-spyro-qrd-dvt-overlay.dtbo \
+	sda429-spyro-qrd-dvt-overlay.dtbo \
+	sdm429-spyro-qrd-wdp-overlay.dtbo \
+	sdm429-bg-wtp-overlay.dtbo \
+	sdm429-bg-dvt2-wtp-overlay.dtbo \
+	sdm429-bg-wdp-overlay.dtbo \
+	sda429-bg-wdp-overlay.dtbo \
+	sda429-bg-wtp-overlay.dtbo \
+	sda429-bg-dvt2-wtp-overlay.dtbo
+
+msm8940-mtp-overlay.dtbo-base := msm8940-pmi8950.dtb \
+	msm8940-pmi8937.dtb \
+	msm8940-pmi8940.dtb
+
+msm8940-cdp-overlay.dtbo-base := msm8940-pmi8950.dtb \
+	msm8940-pmi8937.dtb \
+	msm8940-pmi8940.dtb
+
+msm8917-mtp-overlay.dtbo-base := msm8917-pmi8950.dtb \
+	msm8917-pmi8937.dtb \
+	msm8917-pmi8940.dtb
+
+msm8917-qrd-overlay.dtbo-base := msm8917-pmi8937.dtb
+
+
+msm8917-cdp-ext-codec-overlay.dtbo-base := msm8917-pmi8950.dtb
+
+msm8917-cdp-ml-touch-overlay.dtbo-base := msm8917-pmi8950.dtb
+
+msm8917-cdp-overlay.dtbo-base := msm8917-pmi8950.dtb \
+	msm8917-pmi8937.dtb \
+	msm8917-pmi8940.dtb
+
+msm8917-rcm-overlay.dtbo-base := msm8917-pmi8950.dtb \
+	msm8917-pmi8937.dtb \
+	msm8917-pmi8940.dtb
+
+apq8017-mtp-overlay.dtbo-base := apq8017-pmi8950.dtb \
+	apq8017-pmi8937.dtb
+
+apq8017-cdp-overlay.dtbo-base := apq8017-pmi8950.dtb \
+	apq8017-pmi8937.dtb
+
+apq8017-cdp-wcd-rome-overlay.dtbo-base := apq8017-pmi8950.dtb \
+	apq8017-pmi8937.dtb
+
+qm215-qrd-overlay.dtbo-base := qm215.dtb
+qcm2150-qrd-overlay.dtbo-base := qcm2150.dtb
+qm215-qrd-smb1360-overlay.dtbo-base := qm215.dtb
+
+msm8953-mtp-overlay.dtbo-base := sdm450.dtb \
+	msm8953.dtb \
+	apq8053.dtb \
+	sda450.dtb \
+	msm8953-pmi8940.dtb \
+	msm8953-pmi8937.dtb \
+	sdm450-pmi8940.dtb \
+	sdm450-pmi8937.dtb
+msm8953-cdp-overlay.dtbo-base := sdm450.dtb \
+	msm8953.dtb \
+	apq8053.dtb \
+	sda450.dtb \
+	msm8953-pmi8940.dtb \
+	msm8953-pmi8937.dtb
+msm8953-rcm-overlay.dtbo-base := sdm450.dtb \
+	msm8953.dtb \
+	apq8053.dtb
+msm8953-ipc-overlay.dtbo-base := msm8953.dtb \
+	apq8053.dtb
+msm8953-qrd-overlay.dtbo-base := sdm450.dtb \
+	msm8953.dtb
+msm8953-iot-mtp-overlay.dtbo-base := sdm450.dtb \
+	msm8953.dtb \
+	apq8053.dtb
+msm8953-ext-codec-mtp-overlay.dtbo-base := msm8953.dtb \
+	apq8053.dtb \
+	msm8953-pmi8940.dtb \
+	msm8953-pmi8937.dtb
+msm8953-ext-codec-rcm-overlay.dtbo-base := msm8953.dtb \
+	apq8053.dtb
+msm8953-cdp-1200p-overlay.dtbo-base := msm8953.dtb
+sdm450-cdp-s2-overlay.dtbo-base := sdm450-pmi632.dtb \
+	sdm632.dtb \
+	sdm632-pm8004.dtb \
+	msm8953-pmi632.dtb \
+	sda450-pmi632.dtb
+sdm450-mtp-s3-overlay.dtbo-base := sdm450-pmi632.dtb \
+	sdm632.dtb \
+	sdm632-pm8004.dtb \
+	sda450-pmi632.dtb
+sdm450-qrd-sku4-overlay.dtbo-base := sdm450-pmi632.dtb \
+	sdm632.dtb \
+	sdm632-pm8004.dtb
+sdm632-rumi-overlay.dtbo-base := sdm632.dtb
+sdm632-ext-codec-cdp-s3-overlay.dtbo-base := sdm632.dtb \
+	sdm632-pm8004.dtb
+sdm632-ext-codec-mtp-s4-overlay.dtbo-base := sdm632.dtb \
+	sdm632-pm8004.dtb
+sdm632-rcm-overlay.dtbo-base := sdm632.dtb \
+	sdm632-pm8004.dtb
+sdm632-qrd-overlay.dtbo-base := sdm632.dtb \
+	sdm632-pm8004.dtb
+
+sdm439-mtp-overlay.dtbo-base := sdm439.dtb \
+	sda439.dtb \
+	msm8937-interposer-sdm439.dtb
+sdm439-cdp-overlay.dtbo-base := sdm439.dtb \
+	sda439.dtb \
+	msm8937-interposer-sdm439.dtb
+sdm439-qrd-overlay.dtbo-base := sdm439.dtb \
+	msm8937-interposer-sdm439.dtb
+
+sdm439-external-codec-mtp-overlay.dtbo-base := sdm439.dtb
+sdm439-rcm-overlay.dtbo-base := sdm439.dtb
+sdm429-mtp-overlay.dtbo-base := sdm429.dtb \
+	sda429.dtb \
+	msm8937-interposer-sdm429.dtb
+sdm429-cdp-overlay.dtbo-base := sdm429.dtb \
+	sda429.dtb \
+	msm8937-interposer-sdm429.dtb
+sdm429-qrd-overlay.dtbo-base := sdm429.dtb \
+	msm8937-interposer-sdm429.dtb
+sdm429-spyro-qrd-evt-overlay.dtbo-base := sdm429-spyro.dtb
+sdm429-spyro-qrd-dvt-overlay.dtbo-base := sdm429-spyro-dvt.dtb
+sda429-spyro-qrd-dvt-overlay.dtbo-base := sda429-spyro-dvt.dtb
+sdm429-spyro-qrd-wdp-overlay.dtbo-base := sdm429-spyro-wdp.dtb
+sdm429-bg-wtp-overlay.dtbo-base := sdm429-bg-wtp.dtb
+sda429-bg-wtp-overlay.dtbo-base := sda429-bg-wtp.dtb
+sdm429-bg-dvt2-wtp-overlay.dtbo-base := sdm429-bg-dvt2-wtp.dtb
+sda429-bg-dvt2-wtp-overlay.dtbo-base := sda429-bg-dvt2-wtp.dtb
+sdm429-bg-wdp-overlay.dtbo-base := sdm429-bg-wdp.dtb
+sda429-bg-wdp-overlay.dtbo-base := sda429-bg-wdp.dtb
+else
+dtb-$(CONFIG_ARCH_MSM8953) += msm8953-cdp.dtb \
+	msm8953-mtp.dtb \
+	msm8953-ext-codec-mtp.dtb \
+	msm8953-qrd-sku3.dtb \
+	msm8953-rcm.dtb \
+	apq8053-rcm.dtb \
+	msm8953-ext-codec-rcm.dtb \
+	apq8053-cdp.dtb \
+	apq8053-ipc.dtb \
+	msm8953-ipc.dtb \
+	apq8053-mtp.dtb \
+	apq8053-ext-audio-mtp.dtb \
+	apq8053-ext-codec-rcm.dtb \
+	msm8953-cdp-1200p.dtb \
+	msm8953-iot-mtp.dtb \
+	apq8053-iot-mtp.dtb \
+	apq8053-lite-dragon-v1.0.dtb \
+	apq8053-lite-dragon-v2.0.dtb \
+	apq8053-lite-dragon-v2.1.dtb \
+	apq8053-lite-dragon-v2.2.dtb \
+	apq8053-lite-dragon-v2.2.1.dtb \
+	apq8053-lite-dragon-v2.3.dtb \
+	apq8053-lite-dragon-v2.4.dtb \
+	apq8053-lat-concam-dev.dtb \
+	apq8053-lat-concam-proto.dtb \
+	msm8953-pmi8940-cdp.dtb \
+	msm8953-pmi8940-mtp.dtb \
+	msm8953-pmi8937-cdp.dtb \
+	msm8953-pmi8937-mtp.dtb \
+	msm8953-pmi8940-ext-codec-mtp.dtb \
+	msm8953-pmi8937-ext-codec-mtp.dtb \
+	msm8953-pmi632-cdp-s2.dtb \
+	apq8053-batcam.dtb
+
+ifeq ($(CONFIG_MACH_ASUS),y)
+dtb-$(CONFIG_MACH_ASUS_X00I) += msm8937-pmi8950-mtp-X00I.dtb
+dtb-$(CONFIG_MACH_ASUS_X00P) += msm8937-pmi8940-mtp-X00P.dtb
+dtb-$(CONFIG_MACH_ASUS_X00R) += msm8937-pmi8940-mtp-X00R.dtb
+else
+dtb-$(CONFIG_ARCH_MSM8937) += msm8937-pmi8950-mtp.dtb \
+	msm8937-interposer-sdm439-cdp.dtb \
+	msm8937-interposer-sdm439-mtp.dtb \
+	msm8937-interposer-sdm439-qrd.dtb \
+	msm8937-interposer-sdm429-cdp.dtb \
+	msm8937-interposer-sdm429-mtp.dtb \
+	msm8937-pmi8940-mtp.dtb
+endif
+
+dtb-$(CONFIG_ARCH_MSM8940) += msm8940-pmi8937-mtp.dtb \
+	msm8940-pmi8950-mtp.dtb \
+	msm8940-pmi8940-mtp.dtb
+
+ifeq ($(CONFIG_MACH_ASUS),y)
+dtb-$(CONFIG_MACH_ASUS_X00H) += msm8917-pmi8940-mtp-X00H.dtb
+#dtb-$(CONFIG_MACH_ASUS_X00P) += msm8917-pmi8940-mtp-X00P.dtb
+dtb-$(CONFIG_MACH_ASUS_X00R) += msm8917-pmi8940-mtp-X00R.dtb
+else
+dtb-$(CONFIG_ARCH_MSM8917) += msm8917-pmi8950-mtp.dtb \
+	msm8917-pmi8950-cdp.dtb \
+	msm8917-pmi8950-rcm.dtb \
+	msm8917-pmi8950-ext-codec-cdp.dtb \
+	msm8917-pmi8950-cdp-mirror-lake-touch.dtb \
+	apq8017-pmi8950-cdp-wcd-rome.dtb \
+	apq8017-pmi8950-mtp.dtb \
+	apq8017-pmi8950-cdp.dtb \
+	msm8917-pmi8937-qrd-sku5.dtb \
+	msm8917-pmi8937-mtp.dtb \
+	msm8917-pmi8937-cdp.dtb \
+	msm8917-pmi8937-rcm.dtb \
+	apq8017-pmi8937-mtp.dtb \
+	apq8017-pmi8937-cdp.dtb \
+	apq8017-pmi8937-cdp-wcd-rome.dtb \
+	msm8917-pmi8940-mtp.dtb \
+	msm8917-pmi8940-cdp.dtb \
+	msm8917-pmi8940-rcm.dtb
+endif
+
+dtb-$(CONFIG_ARCH_QM215) += qm215-qrd.dtb \
+	qcm2150-qrd.dtb
+dtb-$(CONFIG_ARCH_QM215) += qm215-qrd-smb1360.dtb
+
+dtb-$(CONFIG_ARCH_MSM8909) += msm8909-pm8916-mtp.dtb \
+	sdw3100-msm8909w-wtp.dtb \
+	sdw3100-apq8009w-wtp.dtb \
+	sdw3100-apq8009w-alpha.dtb \
+	apq8009-mtp-wcd9326-refboard.dtb \
+	apq8009-robot-som-refboard.dtb \
+	apq8009-robot-rome-refboard.dtb \
+	apq8009-robot-pronto-refboard.dtb \
+	apq8009-dragon.dtb \
+	apq8009-lat-v1.0.dtb \
+	sdw3100-msm8909w-1gb-wtp.dtb \
+	sdw2500-apq8009w-wtp.dtb \
+	sdw2500-msm8909w-wtp.dtb \
+	msm8905-qrd-skub_qseev4.dtb \
+	msm8905-qrd-skub.dtb \
+	msm8905-qrd-sku3.dtb \
+	msm8909-mtp.dtb \
+	msm8909-1gb-mtp.dtb
+
+dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
+	sdm450-cdp.dtb \
+	sdm450-mtp.dtb \
+	sda450-cdp.dtb \
+	sda450-mtp.dtb \
+	sdm450-qrd.dtb \
+	sdm450-pmi8940-mtp.dtb \
+	sdm450-pmi8937-mtp.dtb \
+	sdm450-iot-mtp.dtb \
+	sdm450-qrd-sku4.dtb \
+	sdm450-pmi632-cdp-s2.dtb \
+	sdm450-pmi632-mtp-s3.dtb \
+	sda450-pmi632-cdp-s2.dtb \
+	sda450-pmi632-mtp-s3.dtb
+
+dtb-$(CONFIG_ARCH_SDM632) += sdm632-rumi.dtb \
+	sdm632-cdp-s2.dtb \
+	sdm632-ext-codec-cdp-s3.dtb \
+	sdm632-mtp-s3.dtb \
+	sdm632-ext-codec-mtp-s4.dtb \
+	sdm632-rcm.dtb \
+	sdm632-qrd-sku4.dtb \
+	sdm632-qrd.dtb \
+	sdm632-pm8004-cdp-s2.dtb \
+	sdm632-pm8004-ext-codec-cdp-s3.dtb \
+	sdm632-pm8004-mtp-s3.dtb \
+	sdm632-pm8004-ext-codec-mtp-s4.dtb \
+	sdm632-pm8004-rcm.dtb \
+	sdm632-pm8004-qrd-sku4.dtb \
+	sdm632-pm8004-qrd.dtb
+
+dtb-$(CONFIG_ARCH_SDM439) += sdm439-mtp.dtb \
+	sdm439-cdp.dtb \
+	sdm439-qrd.dtb \
+	sda439-mtp.dtb \
+	sda439-cdp.dtb \
+	sdm439-external-codec-mtp.dtb \
+	sdm439-rcm.dtb \
+	qm215-qrd.dtb \
+	qcm2150-qrd.dtb \
+	qm215-qrd-smb1360.dtb
+
+dtb-$(CONFIG_ARCH_SDM429) += sdm429-mtp.dtb \
+	sdm429-cdp.dtb \
+	sdm429-qrd.dtb \
+	sda429-mtp.dtb \
+	sda429-cdp.dtb \
+	sdm429-spyro.dtb \
+	sdm429-spyro-dvt.dtb \
+	sdm429-spyro-wdp.dtb \
+	sda429-spyro-dvt.dtb \
+	sdm429-bg-iot-wtp.dtb
+
+endif
+
+dtb-$(CONFIG_ARCH_SDM845_VM) += sdm845-vm.dtb
+
+always		:= $(dtb-y)
+subdir-y	:= $(dts-dirs)
+clean-files	:= *.dtb
